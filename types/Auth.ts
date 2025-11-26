@@ -11,6 +11,8 @@ export interface InputAuthProps {
   icon: LucideIcon;
   showPassword?: boolean;
   setShowPassword?: (show: boolean) => void;
+  error ?: boolean;
+  errorText ?: string;
 }
 
 export interface LoginHeaderProps {
