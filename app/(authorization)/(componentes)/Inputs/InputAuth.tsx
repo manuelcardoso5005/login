@@ -1,9 +1,9 @@
 import { FC } from "react";
 import { LucideIcon } from "lucide-react";
-import { InputLoginProps } from "../../../types/login";
+import { InputAuthProps } from "@/types/Auth";
 import { Eye, EyeOff } from "lucide-react";
 
-const InputLogin: FC<InputLoginProps> = ({
+const InputAuth: FC<InputAuthProps> = ({
   label,
   placeholder,
   id,
@@ -68,4 +68,4 @@ const InputLogin: FC<InputLoginProps> = ({
   );
 };
 
-export default InputLogin;
+export default InputAuth;

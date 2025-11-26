@@ -1,5 +1,5 @@
-import LoginInput from './LoginInput';
-import { LoginFormProps } from '@/types/login';
+import LoginInput from '@/app/(authorization)/(componentes)/Inputs/InputAuth';
+import { LoginFormProps } from '@/types/Auth';
 import { Lock, Mail } from 'lucide-react';
 
 interface ControlledLoginFormProps extends LoginFormProps {

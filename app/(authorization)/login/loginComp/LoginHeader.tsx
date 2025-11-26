@@ -1,4 +1,4 @@
-import { LoginHeaderProps } from "@/types/login";
+import { LoginHeaderProps } from "@/types/Auth";
 
 export default function LoginHeader({ children, title, subtitle }: LoginHeaderProps) {
   return (
